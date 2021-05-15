@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Katy's Cafe Breakfast Food Menu</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<script src="MenuSlideshow.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- The screen gets defined as the entire viewing area available to the display (100vw/vh). The screen then gets defined as a horizontal flex box with two sections-->
+		<main class="screen">
+			<div id="Photos">
+				<!-- script *should* pull photos and styling preference (for logo?) from hardwired menu structure -->
+				<div class="photo small"></div>
+				<div class="photo small"></div>
+				<div class="photo small"></div>
+			</div>
+			<div id="Menu">
+				<section class="toggleSection active" data-active-start="" data-active-stop="">
+					<header class="sectionHeader">Surf Break Lunch</header>
+					<div class="sectionSub">Lunch is available until 4:30pm.</div>
+					
+					<div class="itemList">
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Davo</div>
+							<div class="itemDescription">Albacore tuna with bacon, avocado, cream cheese, tomato, spinach, and mustard on an everything bagel.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">8.50</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Suntanned Tuna</div>
+							<div class="itemDescription">Albacore tuna salad on toasted wheat with melted cheddar, tomato, avocado, and greens.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">8.50</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Cafe Club</div>
+							<div class="itemDescription">Ham, bacon, cheddar cheese, tomato, avocado, mayo, mustard, and spinach on toasted sourdough.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">8.50</div>
+							</div>
+						</div>
+						
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Egg Salad Sandwich</div>
+							<div class="itemDescription">Fresh egg salad on toasted white bread.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+						
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Havarti High Tide</div>
+							<div class="itemDescription">Turkey, bacon, baby arugula, mayo, and havarti cheese on toasted sourdough bread.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">8.00</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itemPhoto">
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">B.A.S.T.</div>
+							<div class="itemDescription">Our answer to the BLT. Bacon, Avocado, Spinach,and Tomato served on sourdough bread with a mayonaise spread.</div>
+							<div class="itemPrices">
+								<div class="itemPrice">7.50</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				
+				<section class="healthSection">
+					<header class="sectionHeader">Healthy Helpings</header>
+					<div class="sectionSub">Healthy options served all day.</div>
+					<div class="itemList">
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Acai Bowl</div>
+							<div class="itemDescription">Organic granola, plain yogurt, piled high with fresh fruit and topped generously with acai sorbet.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">8.50</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Veggie Sandwich</div>
+							<div class="itemDescription">Tomato, spinach, bell peppers, and cucumbers with avocado and hummus on multigrain bread.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">7.75</div>
+							</div>
+						</div>
+						
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Something Something Salad</div>
+							<div class="itemDescription">Spinach and arugula salad base with walnut, blue cheese, and a keto-friendly raspberry vinaigrette dressing.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">7.75</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Fruit and Granola Parfait</div>
+							<div class="itemDescription">Seasonal fruit and yogurt cup topped with organic granola.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">6.00</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				<section class="specialsSection">
+					<header class="sectionHeader">Weekday Specials</header>
+					<div class="sectionSub">Special menu items available only on weekdays.</div>
+					<div class="itemList">
+								
+
+						<div class="item">
+                            <div class="itemPhoto">
+                                <!-- log placement defined here via class: top middle bottom left center right -->
+                                <div class="logo"></div>
+                            </div>
+                            <div class="itemName">PBBB</div>
+                            <div class="itemDescription">Plain bagel with peanut butter and sliced bananas.</div>
+                            <div class="itemPrices">
+                                <!-- For each price, create price div -->
+                                <!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+                                <div class="itemPrice">4.00</div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="itemPhoto">
+                                <!-- log placement defined here via class: top middle bottom left center right -->
+                                <div class="logo"></div>
+                            </div>
+                            <div class="itemName">Sunset Bagel</div>
+                            <div class="itemDescription">A fresh, all-day alternative to our Sunshine Bagel made with cheddar, cream cheese, tomato, and bacon on a plain bagel.</div>
+                            <div class="itemPrices">
+                                <!-- For each price, create price div -->
+                                <!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+                                <div class="itemPrice">5.50</div>
+                            </div>
+                        </div>
+						
+					</div>
+				</section>
+				
+				<section class="specialsSection">
+					<header class="sectionHeader">Kids Menu</header>
+					<div class="sectionSub">Lighter options for the little ones.</div>
+					<div class="itemList">
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Toasted Bagel</div>
+							<div class="itemDescription">Toasted bagel with cream cheese spread or butter.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">2.75</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Fruity PB&J Sandwich</div>
+							<div class="itemDescription">Peanut butter and jelly sandwhich with creamy peanut butter, sliced banana, and fruit preserves on white bread.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.50</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				
+			</div>
+		</main>
+		<footer>
+			<!-- script activates and sets active any toggleable sections depending on the current time -->
+			<script src="" charset="utf-8">
+			// Check time function
+			// Toggle on/off
+			</script>
+		</footer>
+	</body>
+</html>
