@@ -21,6 +21,7 @@ html, body {
 	padding: 0;
 	font-size: 70px;
 	/* font-size: calc( 16px + (35 - 16)*(100vw - 1000px)/(2800 - 1000) ); */
+	cursor: none;
 }
 
 /*******************************
