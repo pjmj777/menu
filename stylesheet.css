@@ -19,7 +19,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-size: 70px;
+	font-size: 42px;
 	/* font-size: calc( 16px + (35 - 16)*(100vw - 1000px)/(2800 - 1000) ); */
 	cursor: none;
 }
@@ -101,7 +101,7 @@ section:nth-child(1) {
 	flex-grow: 1;
 	flex-shrink: 0;
 	min-width: 33vw;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: space-around;
 	
@@ -220,8 +220,15 @@ section {
 	justify-content: flex-end;
 }
 
+.sizeHeader .itemPrice {
+	margin-left: .65em;
+	margin-right: .65em;
+}
+
 .itemPrice {
 	text-align: center;
+	margin-left: .4em;
+	margin-right: .4em;
 	flex-grow: 1;
 }
 
