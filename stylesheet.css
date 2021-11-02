@@ -13,6 +13,10 @@
 	src: url("HelveticaNeue.woff") format('woff');
 }
 
+* {
+	font-variant-ligatures: none;
+}
+
 /*******************************
 *********	Normalize	********
 *******************************/
