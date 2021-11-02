@@ -17,6 +17,10 @@
 	font-variant-ligatures: none;
 }
 
+.ligature-fix {
+	letter-spacing: -3px;
+}
+
 /*******************************
 *********	Normalize	********
 *******************************/
