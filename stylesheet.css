@@ -281,5 +281,5 @@ section {
 }
 
 .temporarily-unavailable {
-	color: gray;
+	color: rgb(128, 128, 128);
 }
