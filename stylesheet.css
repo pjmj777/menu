@@ -21,9 +21,7 @@
 	letter-spacing: -3px;
 }
 
-.temporarily-unavailable {
-	color: gray;
-}
+
 
 /*******************************
 *********	Normalize	********
@@ -280,4 +278,8 @@ section {
 
 .itemPrice {
 	letter-spacing: normal;
+}
+
+.temporarily-unavailable {
+	color: gray;
 }
