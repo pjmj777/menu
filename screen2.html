@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Screen 2 | Katy's Cafe</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<script src="MenuSlideshow.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- The screen gets defined as the entire viewing area available to the display (100vw/vh). The screen then gets defined as a horizontal flex box with two sections-->
+		<main class="screen">
+			<div id="Photos">
+				<!-- script *should* pull photos and styling preference (for logo?) from hardwired menu structure -->
+				<div class="photo small"></div>
+				<div class="photo small"></div>
+				<div class="photo small"></div>
+			</div>
+			<div id="Menu">
+				
+				<section>
+					<header class="sectionHeader">Frappes</header>
+					<div class="sectionSub"></div>
+					<div class="itemList">
+
+<!--						
+						<div class="item">
+							<div class="itemPhoto">
+								!-- log placement defined here via class: top middle bottom left center right --
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Sweet Hurricane</div>
+							<div class="itemDescription">Milk + Espresso + White Chocolate + Caramel</div>
+							<div class="itemPrices">
+								!-- For each price, create price div --
+								!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. --
+								<div class="itemPrice">4.75</div>
+							</div>
+						</div>
+
+-->						
+						<div class="item sizeHeader">
+							<div class="itemPhoto">
+							<!-- log placement defined here via class: top middle bottom left center right -->
+							<div class="logo"></div>
+						</div>
+						<div class="itemName"></div>
+							<div class="itemDescription"></div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice"></div>
+								<div class="itemPrice">16oz</div>
+								<div class="itemPrice"></div>
+							</div>
+						</div>
+
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Awesome Alex</div>
+							<div class="itemDescription">Milk + Espresso + Chocolate + Strawberry</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">6.00</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Blondie</div>
+							<div class="itemDescription">Milk + Espresso + White Chocolate + Banana</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">6.00</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Howler Monkey</div>
+							<div class="itemDescription">Milk + Espresso + Chocolate + Coconut Syrup + Banana</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">6.00</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Arctic Monkey</div>
+							<div class="itemDescription">Milk + Espresso + Chocolate + Banana</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">6.00</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				
+				<section>
+					<header class="sectionHeader">Tea & More</header>
+					<div class="sectionSub"></div>
+					<div class="itemList">
+						
+						<div class="item sizeHeader">
+							<div class="itemPhoto">
+							<!-- log placement defined here via class: top middle bottom left center right -->
+							<div class="logo"></div>
+						</div>
+						<div class="itemName"></div>
+							<div class="itemDescription"></div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">12oz</div>
+								<div class="itemPrice">16oz</div>
+								<div class="itemPrice">20oz</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Tea</div>
+							<div class="itemDescription">Black/Green/Herbal Tea</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">3.25</div>
+								<div class="itemPrice">3.50</div>
+								<div class="itemPrice">3.75</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Hot Chocolate</div>
+							<div class="itemDescription">Milk + Chocolate (Traditional/Mexican/White)</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.50</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Juice</div>
+							<div class="itemDescription">Apple or Orange Juice</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice"> </div>
+								<div class="itemPrice">2.75</div>
+								<div class="itemPrice" style="min-width: 70px;"> </div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+
+				<section class="unavailable">
+					<header class="sectionHeader">Seasonal Drinks</header>
+					<div class="sectionSub"></div>
+					<div class="itemList">
+
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Santa Fe Avocado Toast</div>
+							<div class="itemDescription">Avocado spread on toasted sourdough bread topped with a fried egg and Hatch Chili Salsa</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice"></div>
+								<div class="itemPrice">4.25</div>
+								<div class="itemPrice"></div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							
+						
+							<div class="itemName">Coffee/Italian Soda</div>
+							<div class="itemDescription">Mineral Water + Coffee/Flavored Syrup</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice"></div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice"></div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<section class="unavailable">
+					<header class="sectionHeader" style="padding-top: 2rem"></header>
+					<div class="sectionSub"></div>
+					<div class="itemList">
+						
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Flan Latte</div>
+							<div class="itemDescription">Espresso + Milk + Amaretto Syrup + Caramel Sauce Drizzle</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.00</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Affogato</div>
+							<div class="itemDescription">Espresso + Vanilla Ice Cream + Chocolate Drizzle</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice"></div>
+								<div class="itemPrice">4.50</div>
+								<div class="itemPrice"></div>
+							</div>
+						</div>
+						
+					</div>
+
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Red Velvet Mocha</div>
+							<div class="itemDescription">A Valentine's Day variation of a traditional mocha that has a smoother, creamier flavor.</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.50</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->	
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Pumpkin Spice Latte</div>
+							<div class="itemDescription">Milk + Espresso + Our house made Pumpkin Spice Syrup</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.25</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+						
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Ginger Snap Latte</div>
+							<div class="itemDescription">Milk + Espresso + Our house made Ginger Snap Syrup</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.25</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+						
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Cookie Butter Latte</div>
+							<div class="itemDescription">Milk + Espresso + Cookie Butter Syrup</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.25</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+
+						<div class="item unavailable">
+							<div class="itemPhoto">
+								<!-- log placement defined here via class: top middle bottom left center right -->
+								<div class="logo"></div>
+							</div>
+							<div class="itemName">Champagne Latte</div>
+							<div class="itemDescription">Milk + Espresso + Honey + Vanilla</div>
+							<div class="itemPrices">
+								<!-- For each price, create price div -->
+								<!-- Cold drinks have only one price, hot drinks have three, and some sandwiches have one or two. -->
+								<div class="itemPrice">4.25</div>
+								<div class="itemPrice">4.75</div>
+								<div class="itemPrice">5.25</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				
+			</div>
+		</main>
+		<footer>
+			<!-- script activates and sets active any toggleable sections depending on the current time -->
+			<script src="" charset="utf-8">
+			// Check time function
+			// Toggle on/off
+			</script>
+		</footer>
+	</body>
+</html>
